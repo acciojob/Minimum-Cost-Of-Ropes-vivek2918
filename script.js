@@ -12,7 +12,7 @@ function calculateMinCost() {
 
 	while(arr.length > 1){
 		arr.sort(function(x,y)){
-			return a - b;
+			return x - y;
 		}
 		let merge = arr[0] + arr[1];
 		sum += merge;
