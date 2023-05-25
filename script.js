@@ -1,9 +1,9 @@
 let input = document.getElementById('rope-length');
-let ans = document.getElementById('result');
+let ans = document.getElementById('ans');
 
 function calculateMinCost() {
   //your code here
-  let sum = 0;
+    let sum = 0;
 	let arr = [];
 	let str = input.value.split(',');
 	for(let num of str){
