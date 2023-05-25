@@ -11,9 +11,9 @@ function calculateMinCost() {
 	}
 
 	while(arr.length > 1){
-		arr.sort(function(x,y)){
+		arr.sort(function(x,y){
 			return x - y;
-		}
+		});
 		let merge = arr[0] + arr[1];
 		sum += merge;
 		arr.splice(0,2);
